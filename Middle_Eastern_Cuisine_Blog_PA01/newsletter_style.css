@@ -1,0 +1,39 @@
+.newsletter-container {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 1vw;
+}
+
+#newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email-input {
+  flex: 1;
+  padding: 0.5vw;
+  font-size: 0.8vw;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 0.2vw 0 0 0.2vw;
+}
+
+#subscribe-btn {
+  padding: 0.5vw 1vw;
+  font-size: 0.8vw;
+  background-color: #9f6764;
+  color: #e2e1e1;
+  border: none;
+  border-radius: 0 0.2vw 0.2vw 0;
+  cursor: pointer;
+}
+
+#subscribe-btn:hover {
+  background-color: #ba7f7c;
+}

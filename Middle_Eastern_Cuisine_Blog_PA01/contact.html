@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="contact_form.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4)">
+      <header>
+        <a href="index.html" class="custom-link"
+          ><h1>The Middle Eastern Cuisine</h1></a
+        >
+        <main class="main-header">
+          <a href="Dessert/desserts.html" class="custom-link"
+            ><h5>Desserts</h5></a
+          >
+          <a href="Main_Dishes/main_dishes.html" class="custom-link"
+            ><h5>Main</h5></a
+          >
+          <a href="Side_Dishes/side_dishes.html" class="custom-link"
+            ><h5>Sides</h5></a
+          >
+          <a href="contact.html" class="custom-link"> <h5>Contact</h5> </a>
+        </main>
+      </header>
+    </div>
+
+    <main class="main-form">
+      <article>
+        <h3>About Me</h3>
+        <img src="me.jpg" alt="me" />
+        <ul>
+          <li>Name: Fatima Kabbout</li>
+          <li>Age: 16</li>
+          <li>Descent: Lebanese</li>
+        </ul>
+      </article>
+      <article>
+        <h3>
+          Any questions? <br />
+          Ask away!
+        </h3>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Name" required /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-Mail"
+            required
+          /><br />
+          <div class="dropdown">
+            <select>
+              <option value="" disabled selected>Subject</option>
+              <option value="option1">Question</option>
+              <option value="option2">Idea</option>
+              <option value="option3">Constructive Criticism</option>
+            </select>
+          </div>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </article>
+    </main>
+
+    <footer>&copy; 2023 Fatima Kabbout</footer>
+  </body>
+</html>
